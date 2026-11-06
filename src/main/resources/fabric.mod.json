@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "moonclient",
+  "version": "${version}",
+  "name": "MoonClient V1",
+  "description": "A lightweight, configurable client-side HUD and utility mod by MOONPLAYZ19.",
+  "authors": ["MOONPLAYZ19"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.moonplayz.moonclient.MoonClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
